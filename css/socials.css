@@ -1,0 +1,22 @@
+#socials_flex {
+	text-align: center;
+	list-style-type: none;
+}
+
+.socials_logo {
+	color:#272A29;
+	padding: 25px;
+	display:inline;
+}
+
+.socials_logo a {
+	opacity: 1;
+}
+
+.socials_logo a:hover {
+	opacity: 0.5;
+}
+
+#socials {
+	text-align: center;
+}

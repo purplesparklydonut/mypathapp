@@ -1,0 +1,243 @@
+@import url("css/button_ulule.css");
+@import url("css/button_start.css");
+@import url("css/footer.css");
+@import url("css/socials.css");
+@import url("css/card_flag.css");
+@import url("css/logo_container.css");
+
+
+a { 
+	text-decoration: none; 
+}
+
+i {
+	color:#6FAAC3;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #272A29;
+  text-shadow: *1px 1px 3px* #272A29);
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+ }
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 45px;
+	text-align: center;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	margin: 10vh;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 43px;
+	color:#272A29;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #FFFBFF;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	color: #272A29;
+	font-size: 30px;
+}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 27px;
+}
+
+body {
+	background-color: #E2EEF3;
+	text-decoration: none;
+}
+
+#banner {
+	background-image: url("images/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 310px;
+	padding:50px;
+}
+
+#banner h1{
+	color: white;
+	margin:0;
+}
+
+#koreanflag {
+	width: 200px;
+}
+
+#incoming {
+	text-align: center;
+}
+
+#incoming a {
+	color:#272A29;
+}
+
+.container {
+	width: 80%;
+	margin:40px auto;
+	background-color: #FFFBFF;
+	padding:2%;
+	border-radius: 3px;
+}
+
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	margin: 5px;
+	background-size: cover;
+	background-position: center;
+	flex-direction: row;
+	align-items: center;
+    color: white;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.flexbox img {
+	width: 150px;
+}
+
+.flexbox div {
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	padding:70px;
+}
+
+#typeform {
+	margin-bottom: 1%;
+}
+
+.card_skills {
+	background-size: cover;
+	background-position: center;
+	width: 158px;
+	height: 166px;
+}
+
+.card_skills:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 790px) {
+  .container {
+    width: 500px;
+  }
+
+  #logo_container {
+  	min-width: 480px;
+  	margin: 10px;
+  	display: block;
+  	text-align: center;
+  }
+
+  .button_start {
+  	margin: 10px auto;
+  	text-align: center;
+  }
+
+  .button_ulule {
+  	margin-bottom: 17px;
+  }
+
+  .flexbox {
+  	flex-direction: column;
+  }
+
+  .card_skills {
+  	margin:5px;
+  }
+
+  h1 {
+  	font-size: 50px;
+  }
+
+  .card_flag {
+  	margin:5px;
+ 	max-width: 170px;
+  	max-height:170px; 
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  #logo_container {
+  	min-width: 250px;
+  	margin: 5px;
+  }
+
+  .footer-copyright {
+  	font-size: 15px;
+  }
+
+  .button_ulule {
+  	margin-bottom: 17px;
+  }
+
+  .button_start {
+  	margin-bottom: 13px;
+  }
+
+  h1 {
+  	font-size: 30px;
+  }
+
+  h6 {
+  	margin-top: 5px;
+  	margin-bottom: 0;
+  }
+
+  p {
+  	font-size: 24px;
+  }
+
+  .flexbox {
+  	flex-direction: column;
+  }
+
+  .card_skills {
+  	margin:5px;
+ 	max-width: 140px;
+ 	justify-content: center;
+  }
+
+  .card_flag {
+  	margin:5px;
+  	max-width: 140px;
+  	max-height:170px;
+  }
+
+  #banner {
+  	max-height: 270px;
+  }
+}

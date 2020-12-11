@@ -1,0 +1,15 @@
+#logo_container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFBFF;
+	justify-content: center;
+	margin: 5% 35% 0% 35%;
+	padding: 10px;
+	border-radius: 3px;
+	background-position: center;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+#logo_container img{
+	padding: 3%;
+}
